@@ -49,4 +49,15 @@ return array (
       '@yii/symfonymailer' => $vendorDir . '/yiisoft/yii2-symfonymailer/src',
     ),
   ),
+  'vibha/yii2-extension-sample' => 
+  array (
+    'name' => 'vibha/yii2-extension-sample',
+    'version' => 'dev-master',
+    'alias' => 
+    array (
+      //'@yii/extension-sample' => $vendorDir . '/vibha/yii2-extension-sample', --> auto generated, removed dash is alias using as 
+      //namespace without compiler issue in use "<namespace>" syntax. Add this namespace in vendors\vibha..\Add.php
+      '@yii/extensionsample' => $vendorDir . '/vibha/yii2-extension-sample',
+    ),
+  ),
 );

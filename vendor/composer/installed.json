@@ -5227,6 +5227,87 @@
             "install-path": "../theseer/tokenizer"
         },
         {
+            "name": "vibha/yii2-extension-sample",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vibhamj/yii-extension-sample.git",
+                "reference": "5fa5e8f7abb0fcaacf54c557b45201ab53b4ba5f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vibhamj/yii-extension-sample/zipball/5fa5e8f7abb0fcaacf54c557b45201ab53b4ba5f",
+                "reference": "5fa5e8f7abb0fcaacf54c557b45201ab53b4ba5f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0",
+                "yiisoft/yii2": "~2.0.45",
+                "yiisoft/yii2-bootstrap5": "~2.0.2",
+                "yiisoft/yii2-symfonymailer": "~2.0.3"
+            },
+            "require-dev": {
+                "codeception/codeception": "^5.0.0 || ^4.0",
+                "codeception/lib-innerbrowser": "^3.0 || ^1.1",
+                "codeception/module-asserts": "^3.0 || ^1.1",
+                "codeception/module-filesystem": "^3.0 || ^1.1",
+                "codeception/module-yii2": "^1.1",
+                "codeception/verify": "^2.2",
+                "phpunit/phpunit": "~9.5.0",
+                "symfony/browser-kit": "^6.0 || >=2.7 <=4.2.4",
+                "yiisoft/yii2-debug": "~2.1.0",
+                "yiisoft/yii2-faker": "~2.0.0",
+                "yiisoft/yii2-gii": "~2.2.0"
+            },
+            "time": "2022-09-27T02:22:46+00:00",
+            "default-branch": true,
+            "type": "yii2-extension",
+            "extra": {
+                "yii\\composer\\Installer::postCreateProject": {
+                    "setPermission": [
+                        {
+                            "runtime": "0777",
+                            "web/assets": "0777",
+                            "yii": "0755"
+                        }
+                    ]
+                },
+                "yii\\composer\\Installer::postInstall": {
+                    "generateCookieValidationKey": [
+                        "config/web.php"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "yii\\extension-sample\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Vibha M J",
+                    "email": "vibha248@gmail.com"
+                }
+            ],
+            "description": "Yii 2 Extension to Add",
+            "keywords": [
+                "add",
+                "extension",
+                "yii2"
+            ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+                "source": "https://github.com/yiisoft/yii2",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "install-path": "../vibha/yii2-extension-sample"
+        },
+        {
             "name": "yiisoft/yii2",
             "version": "2.0.46",
             "version_normalized": "2.0.46.0",

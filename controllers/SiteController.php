@@ -10,6 +10,7 @@ use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
 use app\models\EntryForm;
+use app\models\AddNew;
 
 class SiteController extends Controller
 {
@@ -146,5 +147,20 @@ class SiteController extends Controller
             // either the page is initially displayed or there is some validation error
             return $this->render('entry', ['model' => $model]);
         }
+    }
+
+    public function actionAdd()
+    {
+        $model = new AddNew();
+        if ($model->load(Yii::$app->request->post())) {
+            $model->add();
+            Yii::$app->session->setFlash('addDone');
+
+            //return $this->refresh();
+            return $this->render('add', ['model' => $model]);
+        }
+        return $this->render('add', [
+            'model' => $model,
+        ]);
     }
 }

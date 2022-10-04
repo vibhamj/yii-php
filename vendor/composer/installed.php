@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'yiisoft/yii2-app-basic',
-        'pretty_version' => '2.0.46',
-        'version' => '2.0.46.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '42f4505ba1a3fab939896419389597f10ba102a5',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -757,6 +757,17 @@
             'aliases' => array(),
             'dev_requirement' => true,
         ),
+        'vibha/yii2-extension-sample' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '5fa5e8f7abb0fcaacf54c557b45201ab53b4ba5f',
+            'type' => 'yii2-extension',
+            'install_path' => __DIR__ . '/../vibha/yii2-extension-sample',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => false,
+        ),
         'yiisoft/yii2' => array(
             'pretty_version' => '2.0.46',
             'version' => '2.0.46.0',
@@ -767,9 +778,9 @@
             'dev_requirement' => false,
         ),
         'yiisoft/yii2-app-basic' => array(
-            'pretty_version' => '2.0.46',
-            'version' => '2.0.46.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '42f4505ba1a3fab939896419389597f10ba102a5',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
