@@ -4,6 +4,7 @@ namespace app\models;
 
 use yii\base\Model;
 use yii\extensionsample\components\Add; //as per alias in extenions.php
+use yii\web\NotFoundHttpException;
 
 class AddNew extends Model
 {
@@ -23,6 +24,13 @@ class AddNew extends Model
     {
         //$this->num1, $this->num2
         $addHelper = new Add();
+
+        try {
+            $sum = $this->num1 + $this->num2;
+        } catch(\Error $e) {
+            throw new NotFoundHttpException("Input not a number. Please enter two numbers to add."); //\TypeError(sprintf('Input not a number. Please enter two numbers to add.'));
+        }
+
         $this->sum = $addHelper->add($this->num1, $this->num2);
     }
 }
