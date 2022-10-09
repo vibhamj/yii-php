@@ -22,6 +22,7 @@ class ComposerStaticInit866ef0656bbeb810a0d1a09aecd4d1ab
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         'e3b2795a8a512b6083af088fb53afe6c' => __DIR__ . '/..' . '/codeception/codeception/functions.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
+        'f39f01d955c9bf993c9e59269abf6a1c' => __DIR__ . '/..' . '/yiisoft/var-dumper/src/functions.php',
         '77e7c5c0b74965caa0fbb0a094b7713f' => __DIR__ . '/..' . '/codeception/verify/src/Codeception/bootstrap.php',
     );
 
@@ -40,6 +41,18 @@ class ComposerStaticInit866ef0656bbeb810a0d1a09aecd4d1ab
         'c' => 
         array (
             'cebe\\markdown\\' => 14,
+        ),
+        'Y' => 
+        array (
+            'Yiisoft\\VarDumper\\' => 18,
+            'Yiisoft\\Strings\\' => 16,
+            'Yiisoft\\Profiler\\' => 17,
+            'Yiisoft\\Log\\' => 12,
+            'Yiisoft\\Files\\' => 14,
+            'Yiisoft\\Db\\Oracle\\' => 18,
+            'Yiisoft\\Db\\' => 11,
+            'Yiisoft\\Cache\\' => 14,
+            'Yiisoft\\Arrays\\' => 15,
         ),
         'S' => 
         array (
@@ -66,6 +79,7 @@ class ComposerStaticInit866ef0656bbeb810a0d1a09aecd4d1ab
         'P' => 
         array (
             'Psy\\' => 4,
+            'Psr\\SimpleCache\\' => 16,
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\EventDispatcher\\' => 20,
@@ -137,6 +151,42 @@ class ComposerStaticInit866ef0656bbeb810a0d1a09aecd4d1ab
         'cebe\\markdown\\' => 
         array (
             0 => __DIR__ . '/..' . '/cebe/markdown',
+        ),
+        'Yiisoft\\VarDumper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/var-dumper/src',
+        ),
+        'Yiisoft\\Strings\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/strings/src',
+        ),
+        'Yiisoft\\Profiler\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/profiler/src',
+        ),
+        'Yiisoft\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/log/src',
+        ),
+        'Yiisoft\\Files\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/files/src',
+        ),
+        'Yiisoft\\Db\\Oracle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/db-oracle/src',
+        ),
+        'Yiisoft\\Db\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/db/src',
+        ),
+        'Yiisoft\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/cache/src',
+        ),
+        'Yiisoft\\Arrays\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/arrays/src',
         ),
         'Symfony\\Polyfill\\Php72\\' => 
         array (
@@ -217,6 +267,10 @@ class ComposerStaticInit866ef0656bbeb810a0d1a09aecd4d1ab
         'Psy\\' => 
         array (
             0 => __DIR__ . '/..' . '/psy/psysh/src',
+        ),
+        'Psr\\SimpleCache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/simple-cache/src',
         ),
         'Psr\\Log\\' => 
         array (

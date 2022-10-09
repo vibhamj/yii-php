@@ -21,5 +21,6 @@ return array(
     '801c31d8ed748cfa537fa45402288c95' => $vendorDir . '/psy/psysh/src/functions.php',
     'e3b2795a8a512b6083af088fb53afe6c' => $vendorDir . '/codeception/codeception/functions.php',
     '7b11c4dc42b3b3023073cb14e519683c' => $vendorDir . '/ralouphie/getallheaders/src/getallheaders.php',
+    'f39f01d955c9bf993c9e59269abf6a1c' => $vendorDir . '/yiisoft/var-dumper/src/functions.php',
     '77e7c5c0b74965caa0fbb0a094b7713f' => $vendorDir . '/codeception/verify/src/Codeception/bootstrap.php',
 );
