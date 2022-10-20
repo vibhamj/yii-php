@@ -18,6 +18,8 @@ $config = [
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
+            //'class' => 'yii\caching\MemCache',
+            //'keyPrefix' => 'yiiapp', 
         ],
         'user' => [
             'identityClass' => 'app\models\User',
