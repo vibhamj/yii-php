@@ -17,3 +17,8 @@ How to connect to Virtuxbox Ubuntu using PuTTy ssh:
 3) Go to putty gen, generate a rsa key. Save the public key to a folder
 4) Go to putty, ssh> auth> private key file browse to this path and add. Then go to session add host as 127.0.1.1 and port as 22.
 
+To install oci8:
+1) Follow steps in document to download the dependencies
+2) Skip set 1, https://gist.github.com/syahzul/41fb57bd5aa3ba9b2eb00b264d53843c
+3) Folder structure for instant client is basic-unzipped > sdk folder from sdk unzipped and same level sqlplus executable
+
