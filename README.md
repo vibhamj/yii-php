@@ -22,3 +22,5 @@ To install oci8:
 2) Skip set 1, https://gist.github.com/syahzul/41fb57bd5aa3ba9b2eb00b264d53843c
 3) Folder structure for instant client is basic-unzipped > sdk folder from sdk unzipped and same level sqlplus executable
 
+Downgrade from PHP8.1 to PHP8.0:
+1) https://medium.com/@skounis/downgrade-php8-1-to-php8-0-or-php7-4-on-ubuntu-22-04-2fab4a6a3be3
